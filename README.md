@@ -1,22 +1,24 @@
 # Make Huawei Great Again
 
-**A personal research and documentation project about Huawei phone customization and device-owner options.**
+**A personal, owner-authorized research and documentation project about Huawei phone customization and device-owner options.**
 
-The project explores what owners can learn about their Huawei phones, what customization options are documented, and what limitations may apply to different models and software versions. Its aim is to collect careful, sourced information and explain potential risks—not to promise that every device can be rooted or modified.
+This project explores what owners can learn about their Huawei phones, what customization options are documented, and what limitations may apply to different models and software versions. The aim is to collect careful, sourced information and explain potential risks—not to promise that every device can be rooted or modified.
 
-> **Project status:** Research and documentation only. This README does not claim that a rooting, bootloader-unlocking, jailbreak, or restriction-removal method is available for any particular phone. Verify any claim against the exact device and software version.
+> **Project status:** Research and documentation. No rooting, bootloader-unlocking, jailbreak, or restriction-removal method is claimed to work for a particular phone unless it is clearly documented and independently verified for that exact model and software version.
 
 ## Why this project exists
 
-Huawei phone owners may want to understand their devices more deeply, customize software, learn about root access, and know which system restrictions can or cannot be changed. Information can be scattered, outdated, region-specific, or based on unverified claims. This project aims to bring careful research together in one place, distinguish confirmed information from speculation, and help owners make informed decisions before experimenting.
+Huawei phone owners may want to understand their devices more deeply, customize software, learn about root access, and know which system restrictions can or cannot be changed. Information can be scattered, outdated, region-specific, or based on unverified claims. This project aims to bring careful research together, distinguish confirmed information from speculation, and help owners make informed decisions.
 
-The goal is not to promise that every Huawei phone can be rooted or unlocked. Availability depends on the exact model, region, chipset, firmware/build, bootloader state, and manufacturer policy. Some devices may have no publicly supported or trustworthy path. If a method cannot be verified for the exact device, this project should say so rather than guess.
+The history of iPhone jailbreaking shows that persistence and careful research can sometimes reveal customization options once thought out of reach. It does not prove that every phone can be modified. Android's comparatively open ecosystem gives us a reason to investigate, not a guarantee of success. We will keep learning, document obstacles honestly, and report unknowns instead of presenting guesses as facts.
 
-## Our determination
+## A personal note
 
-The history of iPhone jailbreaking shows that persistence, curiosity, and careful technical research can sometimes reveal customization options that were once thought out of reach. It does not mean every phone can be modified, and it is not proof that any particular Huawei model has a working method. Android's comparatively open ecosystem gives us a reason to investigate—not a guarantee of success.
+I have spent a lot of time researching this project and have encountered real obstacles: information is hard to find, device variants and software builds differ, and a result for one model may not apply to another. I have used AI tools alongside my own research to help organize ideas, explain concepts, and improve writing. AI-assisted material is not proof: technical claims still need reliable sources and verification.
 
-We will keep asking questions, studying reliable public information, and documenting what is and is not possible for the exact devices we own or are authorized to test. We will not call a project a failure just because the answer is difficult, and we will not pretend a method works when evidence says otherwise. Progress means learning, testing responsibly, being honest about limitations, and sharing verified findings with clear risk information.
+The project is larger than what is currently published here. I have additional notes and research files that I have not added yet, including a boot image from a previous month. Having these materials does **not** mean a working root or modification method has been found, and I will not publish firmware files, device dumps, or potentially sensitive materials without checking permission, privacy, licensing, and safety first. Please do not share serial numbers, account data, private logs, or other people's information in public discussions.
+
+I would appreciate support from people who can help with responsible research: checking sources, improving documentation, organizing findings, translating, identifying model and regional differences, and reviewing claims for accuracy. The goal is to build a useful, trustworthy knowledge base together—not to rush into unsafe changes or make unsupported promises.
 
 ## Devices of interest
 
@@ -26,55 +28,50 @@ A device of interest for owner-authorized research. Record the exact model code,
 
 ### Huawei nova 15 Max
 
-A requested device name to investigate. Confirm that Huawei has officially announced the exact model and identify its model code and regional version before treating it as a supported or available device. Do not rely on rumors or apply instructions for a similarly named phone.
+A requested device name to investigate. Confirm that Huawei has officially announced the exact model and identify its model code and regional version before treating it as a supported or available device. Do not rely on rumors or apply information for a similarly named phone.
 
-These are research targets, not claims that root access, a bootloader unlock, or a supported modification is available for either phone.
+Listing a phone here does not mean that root access, a bootloader unlock, or a supported modification is available for it.
 
 ## What the project covers
 
 - Collecting and organizing public manufacturer documentation and reputable technical references.
-- Recording device identity and software context needed to assess compatibility: model code, market/region, firmware build, EMUI or HarmonyOS version where applicable, and security patch level.
-- Explaining, at a high level, concepts such as Android root access, bootloaders, firmware, recovery, verified boot, and the difference between supported customization and bypassing a protection.
-- Keeping a research log that records the question, source, device/software context, result, confidence level, and date checked.
+- Recording device identity and software context needed to assess compatibility: model, market/region, firmware build, EMUI or HarmonyOS version where applicable, and security patch level.
+- Explaining concepts such as Android root access, bootloaders, firmware, recovery, and system restrictions in clear, non-speculative language.
+- Keeping a research log with the question, source, device/software context, result, confidence level, and date checked.
 - Documenting safe, reversible settings or owner-supported customization where reliable information is available.
 - Clearly marking unknowns, unsupported claims, unavailable methods, and information that may be outdated.
 
-## Terminology
+## How to support the project
 
-“Rooting” generally refers to obtaining elevated privileges on Android-based systems. “Jailbreak” is most commonly used for iOS; it is not usually the precise term for modifying Android or Huawei phone software. This project may use the word when discussing it as a general search term, but will identify the actual operating system and technique accurately. Rooting, bootloader unlocking, and changing a device restriction are different actions and should not be treated as interchangeable.
+- Help verify public sources and correct outdated or inaccurate statements.
+- Improve explanations, formatting, translations, and project organization.
+- Share non-sensitive observations about a device you own, including its exact public model and software version; do not post identifiers or private data.
+- Suggest reputable official documentation and explain regional differences with sources.
+- Be respectful, patient, and honest about what has and has not been tested.
+
+Please do not send private firmware, boot images, device dumps, credentials, or personal logs through public issues or discussions. Before any such material is considered, its source, permission to distribute, privacy implications, and safety must be reviewed. Do not present an unverified method as safe or working.
+
+## Research standards
+
+Every technical claim should, where possible, include a source and the date it was checked. Mark statements as **officially documented**, **independently verified**, **reported but unverified**, or **unknown**. Include relevant device and firmware details, and do not generalize a result from one model or region to another. Correct or remove outdated information when new evidence appears.
 
 ## Safety and authorization
 
-Only research or test devices that you own or have explicit permission to modify. Ownership does not eliminate technical risks, warranty terms, carrier or organization policies, or local law.
+Only research or test devices that you own or have explicit permission to test. Ownership does not eliminate technical risks, warranty terms, carrier or organization policies, or local law.
 
-Before making any system-level change, consider that it may:
-
-- erase user data or make a backup impossible to restore;
-- prevent the phone from booting or leave it unusable;
-- weaken security protections and expose personal data;
-- break updates, banking or other apps, network features, or device integrity checks;
-- affect warranty, repair eligibility, resale, or support;
-- be irreversible, unsupported, or incompatible with a later software update.
-
-Keep important data backed up, verify information against the exact model and software build, and stop if the source, compatibility, or recovery path is unclear. Never enter another person’s device, retrieve their data, evade an organization’s management controls, or use these materials for unauthorized access.
-
-## Research quality standards
-
-Every technical claim should, where possible, include a source and the date it was checked. Record whether a statement is **officially documented**, **independently verified**, **reported but unverified**, or **unknown**. Include relevant device and firmware details, and do not generalize a result from one model or region to another. Correct or remove outdated information when new evidence appears.
-
-Do not publish malware, stolen credentials, private data, or instructions intended to compromise devices or bypass protections on devices you are not authorized to test. This project is for transparent, responsible learning about the owner’s own device—not for defeating security on other people’s devices.
+System-level changes can erase data, prevent a phone from booting, weaken security, break apps or network features, affect warranty or support, or leave a device unusable. Back up important data, verify information against the exact model and software build, and stop if the source, compatibility, or recovery path is unclear. Never access another person's device or data, evade an organization's management controls, or use these materials for unauthorized access.
 
 ## Contributing
 
 Contributions should improve accuracy, source quality, clarity, and safety. When submitting a finding, include:
 
-1. The exact device model code and region (avoid posting personal identifiers).
-2. Software version/build and the date tested or researched.
-3. A link to the original source or a clear description of the test conditions.
+1. The exact device model and region (never post personal identifiers).
+2. Software version/build and date researched or tested.
+3. A link to the original source or a clear description of non-sensitive test conditions.
 4. What was observed, what was not tested, and the confidence level.
-5. Any known risks, limitations, or recovery considerations.
+5. Known risks, limitations, and recovery considerations.
 
-Do not include personal data, account details, device serial numbers, or information belonging to another person. There is no guarantee that contributed methods are safe, correct, or supported.
+Do not include account details, device serial numbers, personal data, or information belonging to another person. There is no guarantee that contributed information is safe, correct, or supported.
 
 ## Disclaimer
 
