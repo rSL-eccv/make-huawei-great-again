@@ -1,0 +1,3 @@
+Using kallsyms: analysis/kallsyms.txt
+Loaded 224884 symbols
+KIMAGE_TEXT_BASE = 0xFFFFFFC010000000
