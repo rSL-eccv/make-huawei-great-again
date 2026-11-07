@@ -21,6 +21,8 @@ No official Huawei announcement or specification sheet for a "nova 15 Max" was v
 - [Huawei Jordan — nova 9 SE specifications](https://consumer.huawei.com/jo/phones/nova9-se/specs/)
 - [Huawei Consumer official site](https://consumer.huawei.com/)
 
-## License
+## License and credit
 
-No license has been added. Ask the repository owner before reusing the site's original design or content. Huawei and nova are trademarks of their respective owner.
+This project's original code and design are licensed under the [MIT License](LICENSE). You may use, copy, modify, and share them, including commercially, as long as you include the copyright and permission notice from the license. Please credit **rSL-eccv** as the original creator.
+
+Huawei and nova are trademarks of their respective owner. This project is independent and is not affiliated with or endorsed by Huawei. Product names and third-party materials remain the property of their respective owners; this license does not cover them.
