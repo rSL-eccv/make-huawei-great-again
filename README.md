@@ -4,13 +4,82 @@
 
 This project explores what owners can learn about their Huawei phones, what customization options are documented, and what limitations may apply to different models and software versions. The aim is to collect careful, sourced information and explain potential risks—not to promise that every device can be rooted or modified.
 
-> **Project status:** Research and documentation. No rooting, bootloader-unlocking, jailbreak, or restriction-removal method is claimed to work for a particular phone unless it is clearly documented and independently verified for that exact model and software version.
+> **Project status:** Research and documentation. No rooting, bootloader-unlocking, jailbreak, or restriction-removal method is claimed to work for a particular phone unless it is clearly documented and independently verified for that exact model and software version.but it is in soo good place rn
+
+## WHAT I NEED
+**I NEED TEAM🤣🤣**
 
 ## Why this project exists
 
 Huawei phone owners may want to understand their devices more deeply, customize software, learn about root access, and know which system restrictions can or cannot be changed. Information can be scattered, outdated, region-specific, or based on unverified claims. This project aims to bring careful research together, distinguish confirmed information from speculation, and help owners make informed decisions.
 
 The history of iPhone jailbreaking shows that persistence and careful research can sometimes reveal customization options once thought out of reach. It does not prove that every phone can be modified. Android's comparatively open ecosystem gives us a reason to investigate, not a guarantee of success. We will keep learning, document obstacles honestly, and report unknowns instead of presenting guesses as facts.
+
+
+## IMPORTANT NOTE
+**I DIDN'T POST FULLY CHANGE LOG AS YU SEE AND I HAVE MANY TRYS BY .EXPLOIT AND EVREY THING.I STILL HAVE SOO MANY
+
+10/25/2026  04:48 PM    <DIR>          .
+10/25/2026  04:48 PM    <DIR>          ..
+10/25/2026  04:23 PM    <DIR>          .analysis_tmp_ghostlock
+10/18/2026  03:54 PM    <DIR>          ADB
+09/10/2026  05:31 PM    <DIR>          aet
+09/10/2026  05:26 PM        15,478,013 apktool_3.0.3.jar
+10/24/2026  11:52 PM    <DIR>          badspin
+10/16/2026  05:15 PM    <DIR>          bootly
+02/23/2026  12:30 AM    <DIR>          chronomaly-doesntwork
+07/11/2026  07:49 AM    <DIR>          CVE-2026-46242-main
+10/23/2026  12:11 AM    <DIR>          CVE-2026-46242-master
+10/22/2026  05:51 PM            22,101 CVE-2026-46242-master.zip
+10/25/2026  12:01 AM    <DIR>          cve-2026-64560-analysis
+10/25/2026  02:38 PM             7,472 dirtyfrag-access-probe
+10/25/2026  02:37 PM    <DIR>          DirtyFrag-research
+10/15/2026  05:49 PM    <DIR>          fastbootflasher-v3-20260203
+10/15/2026  05:45 PM        16,235,185 fastbootflasher-v3-20260203.zip
+08/31/2026  04:48 AM    <DIR>          ghostlock
+10/25/2026  02:34 PM    <DIR>          ghostlock-app-latest
+10/18/2026  04:03 PM    <DIR>          ghostlock-app-main
+10/22/2026  09:22 PM    <DIR>          GhostLock-GOT-W29-main
+10/18/2026  07:37 PM    <DIR>          GhostLock-H80GT-0.3.1
+10/18/2026  07:36 PM         4,760,266 GhostLock-H80GT-0.3.1.zip
+09/11/2026  08:24 PM    <DIR>          ghostlock-oneplus-main
+10/19/2026  07:17 PM           712,302 ghostlock-oneplus-main.zip
+10/18/2026  03:49 PM        23,871,452 ghostlock.tar.gz
+08/11/2026  04:35 AM        23,175,169 HCU_0382.zip
+10/25/2026  03:24 PM            13,824 hisi_dummy_ko.ko
+04/19/2026  07:25 PM    <DIR>          Huawei y9a update
+10/16/2026  05:08 PM    <DIR>          Huawei-Nova-15-Max-CHZ-LX1
+10/18/2026  04:28 PM    <DIR>          HuaweiUpdateExtractor-master
+09/11/2026  08:45 PM         1,338,748 HuaweiUpdateExtractor-master.zip
+10/15/2026  03:10 AM    <DIR>          huawei_kernel_xinran_kirin8000A-fix_modem
+09/12/2026  05:37 PM    <DIR>          hw jailbreak proj
+10/16/2026  05:06 PM    <DIR>          HW-Update-Extractor-v1.1
+02/03/2026  10:03 PM             5,550 installer.bat
+02/03/2026  10:03 PM             5,798 installer.sh
+09/10/2026  05:29 PM    <DIR>          jadx-gui-1.5.6-with-jre-win
+09/10/2026  05:25 PM        99,122,202 jadx-gui-1.5.6-with-jre-win.zip
+09/02/2026  02:22 PM    <DIR>          K50G-POCOF4GT-CVE-2026-43499-PoC-main
+08/11/2026  04:40 AM        82,689,828 Kirin-Tool-v2.4.2_2.zip
+09/09/2026  03:47 AM    <DIR>          LSPromise-master
+09/17/2026  08:30 AM            30,843 main.c
+10/22/2026  07:16 PM         3,388,664 mali_leak
+10/22/2026  07:15 PM             9,230 mali_tlstream_leak.c
+10/24/2026  05:39 PM    <DIR>          oat2dex
+02/03/2026  10:03 PM    <DIR>          tools
+10/23/2026  07:39 PM    <DIR>          UAF
+10/23/2026  07:36 PM    <DIR>          vdexext
+10/18/2026  04:57 PM    <DIR>          vmlinux-to-elf-1.3.6
+10/24/2026  11:32 PM    <DIR>          _device_apps
+10/24/2026  11:42 PM               457 _device_ui.xml
+10/24/2026  11:42 PM           121,877 _dial_ui.xml
+10/24/2026  11:43 PM            51,146 _dial_ui2.xml
+10/24/2026  11:10 PM    <DIR>          _HISuite-Proxy
+10/24/2026  11:23 PM    <DIR>          _hota133
+10/24/2026  11:15 PM    <DIR>          _hwouc
+10/24/2026  11:24 PM    <DIR>          _hwouc_dec
+10/24/2026  11:25 PM    <DIR>          _hwouc_dec_nor
+10/24/2026  11:17 PM    <DIR>          _settings
+10/25/2026  05:02 PM    <DIR>          _system_audit_20261025
 
 ## A personal note
 
